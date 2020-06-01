@@ -21,7 +21,8 @@ services:
       - db-data:/var/lib/mysql
   web:
     build:
-      context: nginx
+      context: .
+      dockerfile: ./nginx/Dockerfile
     volumes:
       - public-data:/rails6/public
       - tmp-data:/raisl6/tmp
