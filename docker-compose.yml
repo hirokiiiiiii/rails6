@@ -25,7 +25,7 @@ services:
       dockerfile: ./nginx/Dockerfile
     volumes:
       - public-data:/rails6/public
-      - tmp-data:/raisl6/tmp
+      - tmp-data:/rails6/tmp
     ports:
       - 80:80
     depends_on:
