@@ -26,6 +26,15 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt'
+gem 'rails-i18n'
+gem 'kaminari'
+gem 'date_validator'
+gem 'nokogiri'
+gem 'rails_autolink'
+gem 'ransack'
+
+gem 'bootstrap'
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
